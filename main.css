@@ -1,0 +1,131 @@
+body{
+    background-color:#dcfeec;
+    overflow-y: hidden;
+}
+.white-circle{
+    position:absolute;
+    top:-60vh;
+    left:-18vw;
+    border: 50vw solid #fff;
+    border-radius: 50%;
+    z-index: -2;
+    animation: rotation 1s infinite linear; 
+
+
+}
+#green-circle{
+    position: absolute;
+    top: -25vh;
+    left: -10vw;
+    border: 25vw solid #b4efd5;
+    border-radius: 50%;
+    z-index: -1;
+}
+.navbar{
+    position:absolute;
+    left:90%;
+}
+h1{
+    font-size:3em;
+    color:#254b2f;
+    font-family: 'Roboto', sans-serif;
+    position:absolute;
+    top:20%;
+    left:7%; 
+
+}
+p{
+    font-size:1em;
+    font-weight:300;
+    font-family: 'Roboto', sans-serif;
+    position:absolute;
+    color:#717977;
+    top:35%;
+    left:7%;
+}
+form{
+    position:absolute;
+    top:70%;
+    left:7%;
+}
+.email{
+    border: 0.1ch solid #37e262;
+    border-radius: 5%;
+    padding: 0.5em;
+    width: 20vw;
+    margin-right: 2.5em;
+    border-radius: 12%;
+
+}
+
+
+.submit{
+    border-radius: 12%;
+    background-color: #249440;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 0.6em 1.5em 0.6em 1.5em;
+    margin: 0.5em 2em 0.5em 0.5em;
+    font-weight: 800;
+}
+.logbtn{
+    color :#249440;
+    font-weight: bold;
+    position:absolute;
+    right:130%;
+    top:30%;
+    background-color: transparent;
+    border: 0px solid transparent;
+
+}
+
+
+#timer{
+    position:absolute;
+    left:7%;
+    top:45%;
+    font-family: sans-serif;
+    color:rgb(5, 82, 52);
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 18%;
+    
+  }
+  
+  #timer > div{
+      padding: 20px;
+      border-radius: 10%;
+      background: #fff;
+      display: inline-block;
+      width:80px;
+  }
+  
+  #timer div > span{
+      padding: 5px;
+      border-radius: 3px;
+      background: #fff;
+      display: inline-block;
+  }
+  
+  .smalltext{
+      padding-top: 5px;
+      font-size: 16px;
+      font-weight: 100;
+  }
+  .diallines {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background: #97e87a;
+    top: -45vw;
+    right: -2vw;
+    transform-origin: 50% 46vw;
+  
+  }
+  
+  @keyframes rotation {
+    100% {
+      transform: rotate(1deg);
+    }
+  }
